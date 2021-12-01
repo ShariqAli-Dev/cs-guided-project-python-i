@@ -9,5 +9,9 @@ Examples:
 - convert(2) ➞ 120
 """
 def convert(minutes):
-    # Your code here
+    secondsInAMinute = 60
+    return minutes * secondsInAMinute
 
+print(convert(5))
+print(convert(3))
+print(convert(2))
