@@ -16,7 +16,7 @@ Notes:
 def get_discounts(nums, percentage):
     discount = int(percentage[:2]) / 100
     for i in range(len(nums)):
-        nums[i] = int(nums[i] * discount)
+        nums[i] = nums[i] * discount
     return nums
 
     
